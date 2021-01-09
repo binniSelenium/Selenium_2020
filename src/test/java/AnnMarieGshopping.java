@@ -60,7 +60,7 @@ public class AnnMarieGshopping {
         
         
     @Test
-    public void CreateAccount() {
+    public void testCreateAccount() {
         
         driver.findElement(By.id("menu-item-13432")).click();
         driver.findElement(By.name("customer[first_name]")).sendKeys("Miki");
