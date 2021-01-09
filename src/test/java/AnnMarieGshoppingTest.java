@@ -132,8 +132,7 @@ public class AnnMarieGshoppingTest {
         driver.findElement(By.id("osselectbtn")).click();  //Select button
         driver.findElement(By.xpath("//*[@id=\"cn-accept-cookie\"]/strong")).click();  //ACCEPT cookies
         Thread.sleep(3000);
-        //driver.findElement(By.cssSelector(".selectbtn")).click(); // AddToCart button
-        //driver.findElement(By.xpath("//*[@id=\"frmos\"]/p[4]/a")).click();
+        
         driver.findElement(By.xpath("//*[@id=\"frmos\"]/p[4]/a")).click();  //Miki
         
     }
