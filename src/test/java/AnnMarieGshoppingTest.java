@@ -48,6 +48,7 @@ public class AnnMarieGshoppingTest {
     
     @After
     public void tearDown() {
+        driver.quit();
     }
 
     // TODO add test methods here.
